@@ -1,0 +1,37 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Python environments, caches, and tooling
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Reproducible intermediate data; OCR inputs and the small demo index are kept.
+data/clean/
+data/sections/
+data/chunks/
+data/raw/
+data/financial_facts.json
+
+# Local files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.zip

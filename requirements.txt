@@ -1,0 +1,9 @@
+# Direct dependencies used for the local import, index, pipeline, and UI checks.
+# Python 3.11+; preparation checks were run with Python 3.12 on Linux.
+streamlit==1.65.0
+numpy==2.3.5
+tqdm==4.70.1
+faiss-cpu==1.15.1
+openai==3.28.0
+openai-agents==0.23.1
+python-dotenv==1.2.4
